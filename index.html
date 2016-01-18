@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+    <title>My Currency Converter</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+       
+
+   
+</head>
+
+<body>
+<div style = "length:500px; width:300px;border:1px solid grey;background-color: #879097;">
+<h1>Currency Converter</h1>
+  <select id='dropMenu1' >
+    <option value='' >SELECT CURRENCY</option>
+    <option value='cedi'>Cedi</option>
+    <option value='dollar'>Dollar</option>
+    <option value='naira'>Naira</option>
+  </select>
+    <br \>
+    <br \>
+    <select id='dropMenu2' >
+    <option value='' >SELECT CURRENCY</option>
+    <option value='cedi'>Cedi</option>
+    <option value='dollar'>Dollar</option>
+    <option value='naira'>Naira</option>
+  </select>
+    <br \>
+    <br \>
+    <input type= "text" id='currencyValue1' placeholder='Type amount...' onKeyup='processInput();' style='width:180px;' />
+    <br \>
+    <br \>
+  <input type="text" id='currencyValue2' onKeyup='processInput();' style='width:180px;' />
+    <br \>
+    <input type='button' value='refresh' id='reset'/>
+    
+
+</div>
+ 
+
+    <script type='text/javascript' src='Conversion.js'></script>
+    
+    
+
+</body>
+</html>
